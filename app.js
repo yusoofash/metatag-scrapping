@@ -10,7 +10,7 @@ dotenv.config();
 const config = require('./config');
 
 
-const port = config.httpPort || 3000;
+const port = config.httpPort;
 
 // parse incoming requests
 app.use(bodyParser.urlencoded({

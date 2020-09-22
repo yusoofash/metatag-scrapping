@@ -1,3 +1,3 @@
 module.exports = {
-    httpPort: process.env.HTTP_PORT
+    httpPort: process.env.PORT || 3000
 };
